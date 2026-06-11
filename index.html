@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2027義大利家族旅行</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="flag-bar"></div>
+    <h1>2027 義大利</h1>
+    <p>2027/02/02 – 2027/02/16</p>
+    <div class="flight-card">
+      <strong>航班</strong>
+      <span>去程：2/2 23:10–06:50｜TPE → MXP</span>
+      <span>回程：2/15 11:00–06:10｜MXP → TPE</span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-page="itinerary">行程</button>
+    <button class="tab" data-page="hotels">住宿</button>
+    <button class="tab" data-page="restaurants">餐廳</button>
+    <button class="tab" data-page="sights">景點</button>
+    <button class="tab" data-page="tickets">門票</button>
+  </nav>
+
+  <main>
+    <section id="itinerary" class="page active"></section>
+    <section id="hotels" class="page"></section>
+    <section id="restaurants" class="page"></section>
+    <section id="sights" class="page"></section>
+    <section id="tickets" class="page"></section>
+  </main>
+
+  <footer>
+    <p>義大利家族旅行共用行程表</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
