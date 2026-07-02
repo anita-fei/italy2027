@@ -171,13 +171,14 @@ footer {
     border-radius: 16px;
   }
 }
-@media (max-width: 768px) {
-    .tabs {
-        gap: 6px;
-    }
+@media (max-width: 520px) {
+  .tabs {
+    gap: 5px;
+    padding: 8px 6px;
+  }
 
-    .tab {
-        padding: 8px 10px;
-        font-size: 14px;
-    }
+  .tab {
+    padding: 8px 9px;
+    font-size: 14px;
+  }
 }
