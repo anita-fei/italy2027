@@ -173,12 +173,15 @@ footer {
 }
 @media (max-width: 520px) {
   .tabs {
-    gap: 5px;
+    gap: 4px;
     padding: 8px 6px;
+    overflow-x: visible;
   }
 
   .tab {
-    padding: 8px 9px;
-    font-size: 14px;
+    flex: 1 1 0;
+    padding: 8px 4px;
+    font-size: 13px;
+    text-align: center;
   }
 }
